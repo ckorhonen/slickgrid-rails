@@ -9,11 +9,12 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{SlickGrid Integration for Rails 3.x}
   gem.homepage      = "https://github.com/madvertise/slickgrid-rails"
 
-  gem.add_dependency "railties", "~> 3.0"
+  gem.add_dependency "railties", "~> 4.0"
 
   gem.add_dependency "coffee-rails"
   gem.add_dependency "jquery-plugins-rails"
   gem.add_dependency "jquery-rails"
+  gem.add_dependency "jquery-ui-rails"
   gem.add_dependency "sass-rails"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
