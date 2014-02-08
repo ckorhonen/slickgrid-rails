@@ -12,8 +12,8 @@ Gem::Specification.new do |gem|
   gem.add_dependency "railties", "~> 4.0"
 
   gem.add_dependency "coffee-rails"
-  gem.add_dependency "jquery-plugins-rails"
   gem.add_dependency "jquery-rails"
+  gem.add_dependency "jquery-plugins-rails"
   gem.add_dependency "jquery-ui-rails"
   gem.add_dependency "sass-rails"
 
